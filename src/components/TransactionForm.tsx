@@ -35,7 +35,7 @@ export function TransactionForm({ onAddTransaction }: TransactionFormProps) {
                         type="number"
                         value={amount}
                         onChange={(e) => setAmount(e.target.value)}
-                        className="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-blue-500 focus:ring-blue-500"
+                        className="mt-1 block w-full rounded-md border border-blue-200 shadow-sm focus:border-blue-500 focus:ring-blue-500"
                         required
                         min="0"
                         step="0.01"
@@ -59,7 +59,7 @@ export function TransactionForm({ onAddTransaction }: TransactionFormProps) {
                     type="text"
                     value={description}
                     onChange={(e) => setDescription(e.target.value)}
-                    className="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-blue-500 focus:ring-blue-500"
+                    className="mt-1 block w-full rounded-md border border-blue-200 shadow-sm focus:border-blue-500 focus:ring-blue-500"
                     required
                 />
             </div>
@@ -69,7 +69,7 @@ export function TransactionForm({ onAddTransaction }: TransactionFormProps) {
                     type="text"
                     value={category}
                     onChange={(e) => setCategory(e.target.value)}
-                    className="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-blue-500 focus:ring-blue-500"
+                    className="mt-1 block w-full rounded-md border border-blue-200 shadow-sm focus:border-blue-500 focus:ring-blue-500"
                     required
                 />
             </div>
