@@ -48,12 +48,12 @@ function App() {
 
                     <div className="grid md:grid-cols-2 gap-8">
                         <div>
-                            <h2 className="text-xl font-semibold mb-4">Add Transaction</h2>
+                            <h2 className="text-xl font-semibold mb-4">Adicionar Transação</h2>
                             <TransactionForm onAddTransaction={addTransaction} />
                         </div>
 
                         <div>
-                            <h2 className="text-xl font-semibold mb-4">Recent Transactions</h2>
+                            <h2 className="text-xl font-semibold mb-4">Transações Recentes</h2>
                             <TransactionList transactions={transactions} />
                         </div>
                     </div>
